@@ -1,0 +1,12 @@
+warning: in the working copy of '.env.example', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/.env.example b/.env.example[m
+[1mindex c970e3d..e83ee66 100644[m
+[1m--- a/.env.example[m
+[1m+++ b/.env.example[m
+[36m@@ -9,5 +9,5 @@[m [mVITE_APP_VERSION="1.0.0"[m
+ # Feature Flags (optional)[m
+ VITE_ENABLE_NOTIFICATIONS=true[m
+ VITE_ENABLE_EXPORT=true[m
+[31m-VITE_ENABLE_TRANSFERS=true[m
+[32m+[m[32mVITE_ENABLE_TRANSFERS=true[m[41m [m
+ [m

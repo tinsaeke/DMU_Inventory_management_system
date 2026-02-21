@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/DMU_Inventory_management_system/',
   server: {
     host: "::",
     port: 8080,
